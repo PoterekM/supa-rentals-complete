@@ -1,7 +1,15 @@
-# super-rentals
+# Super-Rentals
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
+
+#### _Ember.js: Property Rental Company, 8-7-2017_
+
+#### By _**Michelle Poterek**_
+
+## Description
+
+_This is a website where property owners may list places for rent, and renters will be able to find places to stay.._
 
 ## Prerequisites
 
@@ -14,7 +22,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/PoterekM/supa-rentals-complete.git`
 * `cd super-rentals`
 * `npm install`
 
