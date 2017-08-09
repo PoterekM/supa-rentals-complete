@@ -1,8 +1,9 @@
 import Ember from 'ember';
 
-export default Ember.Route.extend({
+export default Ember.RSVP.hash({
   model() {
-     return this.store.findAll('rental');
+     rentals: this.store.findAll('rental'),
+     reviews: this.store.findAll('review')
    },
    actions: {
     saveRental3(params) {
