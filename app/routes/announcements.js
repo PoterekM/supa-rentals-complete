@@ -7,7 +7,6 @@ export default Ember.Route.extend({
 
   actions: {
     destroyAnnouncement(announcement) {
-      console.log('hello');
       announcement.destroyRecord();
       this.transitionTo('announcements');
     }

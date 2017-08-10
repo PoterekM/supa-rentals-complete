@@ -36,5 +36,14 @@
   "type": "warning",
   "location": "Canberra, Australia",
   "message": "Town overrun by koala bears"
-  }]
+  }],
+"reviews": [{
+  "author": "Andrea",
+  "rating": 4,
+  "content": "Did not fall down."
+}, {
+  "author": "Alex",
+  "rating": 9,
+  "content": "Nice view of the volcano!"
+}]
 }
