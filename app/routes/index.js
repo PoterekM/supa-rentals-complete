@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model() {
     return Ember.RSVP.hash({
       rentals: this.store.findAll('rental'),
-      reviews: this.store.findAll('review')
+      // reviews: this.store.findAll('review')
     });
   },
   actions: {
@@ -13,10 +13,10 @@ export default Ember.Route.extend({
       newRental.save();
       this.transitionTo('index');
     },
-    saveReview(params) {
-      var newReview = this.store.createRecord('review', params);
-      newReview.save();
-      this.transitionTo('index');
-    }
+    // saveReview(params) {
+    //   var newReview = this.store.createRecord('review', params);
+    //   newReview.save();
+    //   this.transitionTo('index');
+    // }
   }
 });
